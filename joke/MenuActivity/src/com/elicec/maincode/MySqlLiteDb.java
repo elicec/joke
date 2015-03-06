@@ -50,7 +50,7 @@ public class MySqlLiteDb {
 			File dir = new File(DATABASE_PATH);
 			if (!dir.exists()) {
 				if (!dir.mkdir()) {
-					throw new Exception("创建失败");
+					throw new Exception("创建文件夹失败");
 				}
 			}
 			
